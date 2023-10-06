@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T07:38:55.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jMyECoB_riFutMl6T4-t" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T12:03:20.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="h8Lt0q4OGqOkV2TpG6Y0" version="21.8.0" type="github">
   <diagram name="第 1 页" id="ufBAuINpbAZ4HxeSLXoT">
-    <mxGraphModel dx="1185" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,6 +62,92 @@
         </mxCell>
         <mxCell id="TYmUoErVa5pEr8_xfhhr-20" value="ShadowMap Caching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-23" value="Frame 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-25" value="Draw Opaque Into ShadowMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-27" value="Copy ShadowMap To SnapshotMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-34" target="TYmUoErVa5pEr8_xfhhr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-34" value="BackUp ShadowCamera Pos Rot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-36" value="Frame 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-38" value="Calc ShadowCameraOffset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-40" value="Scrolling SnapshotMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-41" value="Draw Dynamic into SnapshotMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-42" target="TYmUoErVa5pEr8_xfhhr-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-42" value="Get all have drawn Opaque object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-44" value="Backup Opaque object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-46" target="TYmUoErVa5pEr8_xfhhr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-46" value="Get all have drawn Opaque object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-48" target="TYmUoErVa5pEr8_xfhhr-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-48" value="Diff Object = All Opaque Object&amp;nbsp; - Backup Opaque Object" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYmUoErVa5pEr8_xfhhr-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYmUoErVa5pEr8_xfhhr-50" value="Draw Diff Opaque Into SnapshotMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
